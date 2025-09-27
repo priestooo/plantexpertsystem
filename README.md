@@ -1,9 +1,6 @@
 
 
 
-## Intelligent System for Farmers README**
-
-
 # 🌾 Intelligent System for Farmers
 
 A full-stack platform designed to provide farmers with insights, tools, and resources to improve agricultural practices and increase crop yields.
