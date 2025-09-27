@@ -253,4 +253,3 @@ VALUES (3, 'Internal Parasites', 'Various worms that infect the digestive tract,
 -- Continue with more livestock (4-25)...
 
 -- Add more Nigerian plants and livestock as needed to reach the required numbers
-

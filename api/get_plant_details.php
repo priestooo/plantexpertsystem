@@ -108,4 +108,3 @@ $wateringStmt->close();
 $careStmt->close();
 $conn->close();
 ?>
-

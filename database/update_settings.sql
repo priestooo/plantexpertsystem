@@ -17,4 +17,3 @@ ALTER TABLE users MODIFY COLUMN password VARCHAR(255) NULL;
 -- Make sure admin user exists
 INSERT IGNORE INTO users (username, password, email, full_name, role) 
 VALUES ('admin', NULL, 'admin@example.com', 'System Administrator', 'admin');
-

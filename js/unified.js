@@ -664,4 +664,3 @@ document.addEventListener("DOMContentLoaded", () => {
   // Call this function when the page loads
   handleUrlParameters()
 })
-

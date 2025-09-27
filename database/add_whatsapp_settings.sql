@@ -10,4 +10,3 @@ CREATE TABLE IF NOT EXISTS settings (
 -- Insert default WhatsApp contact
 INSERT INTO settings (setting_key, setting_value, description) 
 VALUES ('vet_whatsapp_number', '2348012345678', 'WhatsApp number for veterinary contact (include country code without +)');
-

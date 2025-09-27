@@ -22,4 +22,3 @@ http://localhost/plant-expert-system/admin
 ### Steps
 
 1.Save this Folders to your XAMPP htdocs folder
-

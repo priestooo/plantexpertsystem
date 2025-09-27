@@ -232,4 +232,3 @@ $care = $careResult->fetch_assoc();
   </div>
 </body>
 </html>
-

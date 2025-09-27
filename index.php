@@ -315,4 +315,3 @@ while ($row = $livestockCategoriesResult->fetch_assoc()) {
     </script>
 </body>
 </html>
-

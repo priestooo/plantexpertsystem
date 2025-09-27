@@ -299,4 +299,3 @@ VALUES (LAST_INSERT_ID(), 'American Foulbrood', 'A highly contagious bacterial d
 
 INSERT INTO livestock_diseases (livestock_id, disease_name, description, prevention) 
 VALUES (LAST_INSERT_ID(), 'Small Hive Beetle', 'A beetle that infests hives, consuming honey, pollen, and brood. Heavy infestations can cause colonies to abandon the hive.', '["Maintain strong colonies", "Keep hives in sunny locations", "Use beetle traps", "Practice good sanitation in the apiary", "Remove excess supers during dearth periods"]');
-

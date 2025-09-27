@@ -239,4 +239,3 @@ if (isset($_POST['auto_login'])) {
   </div>
 </body>
 </html>
-

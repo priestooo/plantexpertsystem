@@ -270,4 +270,3 @@ if ($diseasesResult->num_rows === 0) {
   </div>
 </body>
 </html>
-

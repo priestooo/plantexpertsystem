@@ -150,4 +150,3 @@ $breedingStmt->close();
 $diseasesStmt->close();
 $conn->close();
 ?>
-

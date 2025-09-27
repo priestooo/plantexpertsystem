@@ -113,4 +113,3 @@ while ($row = $categoriesResult->fetch_assoc()) {
     <script src="js/livestock.js"></script>
 </body>
 </html>
-

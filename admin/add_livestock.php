@@ -422,4 +422,3 @@ while ($row = $categoriesResult->fetch_assoc()) {
   </script>
 </body>
 </html>
-

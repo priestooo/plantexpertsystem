@@ -223,4 +223,3 @@ while ($row = $recentLivestockResult->fetch_assoc()) {
   </div>
 </body>
 </html>
-

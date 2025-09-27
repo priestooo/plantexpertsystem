@@ -38,4 +38,3 @@ echo "Database update completed!";
 // Close connection
 $conn->close();
 ?>
-

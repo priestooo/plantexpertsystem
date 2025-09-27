@@ -30,4 +30,3 @@ A comprehensive web-based expert system for plant and livestock care in Nigeria.
    - Default login: username: `admin`, password: `admin123`
 
 ## Project Structure
-

@@ -248,4 +248,3 @@ while ($row = $categoriesResult->fetch_assoc()) {
   </div>
 </body>
 </html>
-

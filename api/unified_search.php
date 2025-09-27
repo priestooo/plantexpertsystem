@@ -77,4 +77,3 @@ $plantStmt->close();
 $livestockStmt->close();
 $conn->close();
 ?>
-

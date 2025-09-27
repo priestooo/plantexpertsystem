@@ -194,4 +194,3 @@ VALUES (LAST_INSERT_ID(), 'Regular watering until established, then once a week 
 
 INSERT INTO care_instructions (plant_id, fertilizing, pruning, pest_control, disease_prevention, special_care) 
 VALUES (LAST_INSERT_ID(), 'Apply well-rotted manure or compost annually. Use balanced NPK fertilizer (15-15-15) before flowering and during fruit development.', 'Prune young trees to establish a strong framework. Remove crossing, dead, and diseased branches. Prune after harvest.', 'Monitor for fruit flies, mealybugs, and scale insects. Use appropriate insecticides if necessary.', 'Ensure good air circulation to prevent fungal diseases. Avoid overhead irrigation.', 'Protect young trees from strong winds. Thin fruits if necessary to improve size and quality. Harvest when fruits are mature but still firm, usually 4-5 months after flowering. Trees start bearing fruit 3-5 years after planting.');
-
