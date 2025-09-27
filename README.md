@@ -20,7 +20,7 @@ This system helps farmers make data-driven decisions by providing:
 - Market trends for better planning
 
 ---
-(./agro2.jpg)
+![Intelligent System Result](./agro2.jpg)
 ## ✨ Features
 - **Farmer Dashboard** – Central hub for all insights and updates.
 - **Pest & Disease Detection** – Helps identify and address issues quickly.
