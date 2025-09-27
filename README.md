@@ -1,32 +1,45 @@
-# Agricultural Expert System
 
-A comprehensive web-based expert system for plant and livestock care in Nigeria.
+---
 
-## Features
+## **5. Intelligent System for Farmers README**
 
-- User-friendly interface for searching plants and livestock
-- Detailed information on Nigerian plants including planting conditions, watering schedules, and care instructions
-- Comprehensive livestock care guides including feeding, breeding, and health management
-- Customized to-do lists based on plant selection
-- WhatsApp integration for veterinary assistance
-- Admin panel for managing the database
-- Responsive design for all devices
+```markdown
+# 🌾 Intelligent System for Farmers
 
-## Installation
+A full-stack platform designed to provide farmers with insights, tools, and resources to improve agricultural practices and increase crop yields.
 
-### Requirements
+![Farmer System Banner](./banner.png)
 
-- XAMPP (or any server with PHP 7.4+ and MySQL)
-- Web browser
+---
 
-### Steps
+## 🌟 Overview
+This system helps farmers make data-driven decisions by providing:
+- Crop health analysis
+- Pest management tips
+- Weather predictions
+- Market trends for better planning
 
-1. Clone or download this repository to your XAMPP htdocs folder
-2. Create a database named `plant_expert` in phpMyAdmin
-3. Import the database schema from `database/plant_expert.sql`
-4. Configure the database connection in `includes/db_connect.php` if needed
-5. Access the application at http://localhost/agricultural-expert-system
-6. Access the admin panel at http://localhost/agricultural-expert-system/admin
-   - Default login: username: `admin`, password: `admin123`
+---
 
-## Project Structure
+## ✨ Features
+- **Farmer Dashboard** – Central hub for all insights and updates.
+- **Pest & Disease Detection** – Helps identify and address issues quickly.
+- **Weather Forecast Integration** – For better farm planning.
+- **Community Forum** – Farmers can share knowledge and get support.
+- **Responsive Mobile-Friendly Design**.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MySQL  
+- **AI Integration:** Python (for data processing)  
+- **Deployment:** Vercel
+
+---
+
+## ⚙️ Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/priestooo/intelligent-farmer-system.git
