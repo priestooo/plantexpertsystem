@@ -1,0 +1,431 @@
+/* Details Page Styles */
+.details-container {
+  background-color: var(--background-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-bottom: var(--spacing-xl);
+  overflow: hidden;
+}
+
+.plant-details-page,
+.livestock-details-page {
+  padding: var(--spacing-xl);
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+  margin-bottom: var(--spacing-lg);
+  background-color: var(--background-white);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: "/";
+  margin: 0 var(--spacing-sm);
+  color: var(--text-light);
+}
+
+.breadcrumb a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.breadcrumb a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.breadcrumb .active {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+/* Plant/Livestock Header */
+.plant-header,
+.livestock-details-header {
+  display: flex;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.plant-image-container,
+.livestock-details-image {
+  width: 300px;
+  height: 300px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  flex-shrink: 0;
+}
+
+.plant-image-container img,
+.livestock-details-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.plant-details h1,
+.livestock-details-info h1 {
+  color: var(--primary-dark);
+  margin-bottom: var(--spacing-xs);
+  font-size: 2rem;
+}
+
+.scientific-name {
+  font-style: italic;
+  color: var(--text-light);
+  margin-bottom: var(--spacing-md);
+  display: block;
+  font-size: 1.1rem;
+}
+
+.plant-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.difficulty,
+.category {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.difficulty.easy {
+  background-color: #c8e6c9;
+  color: #2e7d32;
+}
+
+.difficulty.moderate {
+  background-color: #fff9c4;
+  color: #f57f17;
+}
+
+.difficulty.difficult {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+.category {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.category i {
+  margin-right: var(--spacing-xs);
+}
+
+.plant-description,
+.livestock-details-description {
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.7;
+}
+
+/* Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  font-size: 0.9rem;
+}
+
+.share-btn i {
+  margin-right: var(--spacing-xs);
+}
+
+.share-btn.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.share-btn.whatsapp:hover {
+  background-color: #128c7e;
+}
+
+.share-btn.facebook {
+  background-color: #1877f2;
+  color: white;
+}
+
+.share-btn.facebook:hover {
+  background-color: #166fe5;
+}
+
+.share-btn.print {
+  background-color: #f5f5f5;
+  color: var(--text-color);
+}
+
+.share-btn.print:hover {
+  background-color: #e0e0e0;
+}
+
+/* Tabs */
+.details-tabs {
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.tabs-nav {
+  display: flex;
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: var(--spacing-lg);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tab-button {
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-light);
+  position: relative;
+  transition: var(--transition);
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+}
+
+.tab-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.5s;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Related Items */
+.related-plants,
+.related-livestock {
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.related-plants h3,
+.related-livestock h3 {
+  margin-bottom: var(--spacing-lg);
+  color: var(--primary-dark);
+  font-size: 1.4rem;
+  position: relative;
+  padding-bottom: var(--spacing-sm);
+}
+
+.related-plants h3::after,
+.related-livestock h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.related-card {
+  background-color: var(--background-white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid #e0e0e0;
+}
+
+.related-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.related-image {
+  height: 150px;
+  overflow: hidden;
+}
+
+.related-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.related-card:hover .related-image img {
+  transform: scale(1.05);
+}
+
+.related-name {
+  padding: var(--spacing-md);
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Back Button */
+.back-button-container {
+  margin-top: var(--spacing-xl);
+  text-align: center;
+}
+
+/* Print Styles */
+@media print {
+  header,
+  footer,
+  .main-nav,
+  .breadcrumb,
+  .share-buttons,
+  .tabs-nav,
+  .related-plants,
+  .related-livestock,
+  .farm-tools-banner,
+  .back-button-container {
+    display: none !important;
+  }
+
+  .tab-content {
+    display: block !important;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-size: 12pt;
+    background: white;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .plant-details-page,
+  .livestock-details-page {
+    padding: 0;
+  }
+
+  .details-container {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .plant-header,
+  .livestock-details-header {
+    flex-direction: column;
+  }
+
+  .plant-image-container,
+  .livestock-details-image {
+    width: 100%;
+    height: 250px;
+    margin-bottom: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  .share-buttons {
+    flex-wrap: wrap;
+  }
+
+  .share-btn {
+    flex: 1;
+    min-width: 120px;
+    justify-content: center;
+  }
+
+  .related-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .plant-details-page,
+  .livestock-details-page {
+    padding: var(--spacing-md);
+  }
+
+  .tabs-nav {
+    padding-bottom: var(--spacing-xs);
+  }
+
+  .tab-button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.9rem;
+  }
+
+  .related-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
