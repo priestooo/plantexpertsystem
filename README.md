@@ -1,7 +1,7 @@
 
 
 
-## ** Intelligent System for Farmers README**
+## Intelligent System for Farmers README**
 
 
 # 🌾 Intelligent System for Farmers
