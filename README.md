@@ -8,7 +8,7 @@
 
 A full-stack platform designed to provide farmers with insights, tools, and resources to improve agricultural practices and increase crop yields.
 
-![Farmer System Banner](./banner.png)
+![Farmer System Banner](./agro1.jpg)
 
 ---
 
@@ -20,7 +20,7 @@ This system helps farmers make data-driven decisions by providing:
 - Market trends for better planning
 
 ---
-
+(./agro2.jpg)
 ## ✨ Features
 - **Farmer Dashboard** – Central hub for all insights and updates.
 - **Pest & Disease Detection** – Helps identify and address issues quickly.
